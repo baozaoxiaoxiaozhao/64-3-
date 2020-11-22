@@ -1,0 +1,113 @@
+/* 全局样式 */
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+li{
+    list-style-type: none;
+}
+/* 背景 */
+.top{
+    width:100%;
+}
+.top img{
+    width:100%;
+}
+
+/* 文章 */
+.luntan{
+    width:100%;
+    height:1.88rem;
+    margin-top: 1rem;
+}
+.luntan1{
+    width:11.75rem;
+    height:1.88rem;
+    margin:0 auto;
+}
+.shijian{
+    width:0.75rem;
+    background:#4ec486;
+    height:0.75rem;
+}
+.yue{
+    width:0.75rem;
+    height:0.3rem;
+    font-size: 0.23rem;
+    color:#fff;
+    text-align: center;
+}
+.nian{
+    width:0.75rem;
+    height:0.3rem;
+    margin-top:0.11rem;
+    font-size: 0.28rem;
+    color:#fff;
+    text-align: center;
+}
+.xiaoxin1{
+    width:10rem;
+    height:0.4rem;
+    position: relative;
+    left:1rem;
+    top:-0.75rem;
+    color:#000;
+    font-size: 0.3rem;
+}
+.yiqing{
+    width:10rem;
+    height:0.3rem;
+    position: relative;
+    left:1rem;
+    top:-0.45rem;
+    color:#000;
+    font-size: 0.2rem;
+}
+.yuedu{
+    width:1rem;
+    height:0.3rem;
+    position: relative;
+    left:1rem;
+    top:-0.15rem;
+    color:#4ec486;
+    font-size: 0.2rem;
+}
+
+
+.xian{
+    width:11.75rem;
+    height:0.01rem;
+    background:#ccc;
+    margin:0 auto;
+}
+
+
+
+.an{
+    width:11.75rem;
+    height:0.5rem;
+    margin:0 auto;
+    margin-top: 0.3rem;
+}
+
+
+
+.ggg{
+    width:100%;
+    height:1.4rem;
+    background:#333333;
+    margin-top: 1rem;
+}
+.yyyyy{
+    width:11.75rem;
+    height:1.4rem;
+    margin:0 auto;
+    overflow: hidden;
+}
+.yyyyy img{
+    margin-top: 0.4rem;
+}

@@ -1,0 +1,296 @@
+/* 全局样式 */
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+li{
+    list-style-type: none;
+}
+/* 导航部分样式 */
+.ltlnav{
+    width:100%;
+    background:#fff;
+    height:80px;
+}
+.ltl{
+    height:80px;
+}
+.ltltp{
+    height:80px; 
+    width:130px;
+    float:left;
+}
+.gywm li{
+    float:right;
+    line-height: 80px;
+    margin-right: 25px;
+}
+.gywm li button{
+    width:100px;
+    height:30px;
+}
+.xiazai{
+    border: 1px solid #4ec488;
+    float: right;
+    margin-top: 25px;
+    width:100px;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+}
+.xiazai:hover{
+    background:#4ec488;
+    color:#fff;
+    transition: all 0.3s;
+}
+.gywm li a{
+    font-size: 16px;
+}
+.one{
+    background:#000;
+    height:80px;
+}
+.gywm  li a{
+    color:#000;
+}
+/* 导航第二套 */
+.ltltp1{
+    height:80px; 
+    width:130px;
+}
+.xiazai1{
+    border: 1px solid #4ec488;
+    float: right;
+    margin-top: 25px;
+    width:100px;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+}
+.ltlnav1{
+    width:100%;
+    height:140px;
+}
+.gywm .xiazai1:hover{
+    background:#4ec488;
+    color:#fff;
+    transition: all 0.3s;
+}
+/* 第三套导航 */
+.ltlnav3{
+    height:50px;
+    position: absolute;
+    z-index: 3;
+}
+.ltlgo{
+    width:50px;
+    height:50px;
+    float:left;
+}
+.zhankai{
+    width:50px;
+    height:50px;
+    float:right;
+}
+.zhankai span{
+    width:40px;
+    height:2px;
+    background:#4ec488;
+    float:left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.caidan{
+    width:100%;
+    height:362px;
+    background:#4ec488;
+    display:none;
+}
+.xiala li{
+    width:100%;
+    height:60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 17px;
+    border-bottom: 1px solid #ccc;
+}
+.xiala li a{
+    color:#000;
+}
+/* 轮播图部分 */
+.chuangxin{
+    height:0.5rem;
+    margin-top: 0.5rem;
+}
+/* 文字 */
+.chuangxin1{
+    height:0.5rem;
+    font-size: 0.35rem;
+    text-align: center;
+    ;
+}
+/* 文案 */
+.qudong{
+    margin-top: 0.4rem;
+}
+.qudong1{
+    text-align: center;
+    font-size: 0.18rem;
+    line-height: 0.5rem;
+}
+
+/* 介绍 */
+.one{
+    height:370px;
+    background:#4ec488;
+    margin-left: 20px;
+}
+.one2{
+    height:370px;
+    background:#4ec488;
+    margin-left: 20px;
+}
+.one1{
+    height:370px;
+    background:#4ec488;
+    margin-left: 20px;
+}
+.yiliaobao{
+    width:100px;
+    height:100px;
+    background:#4ec488;
+    margin:0 auto;
+    border-radius: 200px;
+    border:2px solid #fff;
+    margin-top:50px;
+    text-align: center;
+}
+.yiliaobao1{
+    margin-top: 25px;
+}
+.xiangxia{
+   margin-top: 10px;
+   font-size: 0.2rem;
+}
+.dazhong{
+    margin-top: 0.5rem;
+}
+.one,.one1,.one2{
+    border-radius: 5px;
+}
+.wenan{
+    width:55px;
+    height:20px;
+    margin:0 auto;
+    font-size: 20px;
+    margin-top: 25px;
+    text-align: center;
+    color:#fff;
+}
+.ccc{
+    margin-top: 20px;
+    height:40px;
+    text-align: center;
+    color:#fff;
+}
+
+/* 优质 */
+.youzhi{
+    height:30px;
+    margin:0 auto;
+    clear: both;
+    position: relative;
+    top:100px;
+    text-align: center;
+    font-size: 28px;
+}
+
+/* table 标签页部分 */
+.zhuanshu{
+    position: relative;
+    top:200px;
+    height:420px;
+    width:200px;
+    clear: both;
+    width:1160px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.zhuanshu1{
+    width:3212px;
+    height:420px;
+}
+.huawuyuan{
+    width:800px;
+    height:420px;
+    float:left;
+}
+.zhuanshu1 img{
+    width:800px;
+    height:420px
+}
+.zhuanshu2{
+    width:360px;
+    height:420px;
+    background:#4ec488;
+    float:right
+}
+.zhuanshuaa{
+    width:800px;
+    height:420px;
+    overflow:hidden;
+    float:left
+}
+
+.aaaa{
+    margin-top: 100px;
+}
+.hh{
+    margin-top: 180px;
+}
+
+.yonghuai{
+    width:3,2rem;
+    height:0.2rem;
+    clear: both;
+    text-align: center;
+    position: relative;
+    top:150px
+}
+
+/* 底部 */
+.dibu{
+    width:100%;
+    height:420px;
+    position: relative;
+    top:200px;
+    background:#7f7865;
+    overflow:hidden;
+}
+.dibu .biejing{
+    width:100%;
+    height:420px;
+}
+.yy{
+    margin-top: 100px;
+}
+.banquan{
+    width:100%;
+    height:140px;
+    background:#333333;
+    position: relative;
+    top:110px;
+}
+.banquan1{
+    width:1175px;
+    height:140px;
+    margin:0 auto;
+}
+.banquan1 img{
+    position: relative;
+    top:40px
+}
