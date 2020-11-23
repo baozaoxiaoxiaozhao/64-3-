@@ -1,0 +1,51 @@
+﻿.middle{
+    background-color: rgb(245, 245, 245);
+    overflow: hidden;
+}
+.yd1{ 
+   margin-top: 0.2rem;
+}
+.yhd{
+    font-size: 0.2rem;
+    margin-top:0.2rem;
+}
+
+.jdq{
+    margin-top:0.2rem;
+}
+.yd1-con{
+    width: 100%;
+    padding:0.2rem !important;
+    background-color: #fff;
+}
+.yd1-con>p:first-child{
+    font-size: 0.19rem;
+    
+}
+a:hover{
+    color:#259;
+    text-decoration: none;
+}
+a{
+    color: #259!important;
+}
+.yd1-con>p:nth-child(2){
+    font-size: 0.13rem;
+    color: #999;
+    margin: 0;
+}
+.huise{
+    line-height: 0.4rem;
+    color: #999;
+    background-color: #e2e2e2;
+    height:0.4rem ;
+    width: 100%;
+    padding: 0 !important;
+    /* float: left; */
+}
+.huise>span:first-child{
+    float: left;
+}
+.huise>span:last-child{
+    float: right;
+}
